@@ -82,21 +82,19 @@ void loop()
   OCR1A = dutyCycleValues[readingPotentiometer];
 
   // Only for demostrating the visually linear fade corrected for human brightness perception
-  // response
   fadeUp();
-  delay(1000);
+  delay(2000);
   fadeDown();
-  delay(20);
+  delay(2000);
 }
 
-// Only for demostrating the visually linear fade corrected for human eye
-// response
+// Only for demostrating the visually linear fade corrected for human brightness perception
 void fadeUp()
 {
   for (int i = 0; i <= 511; i++)
   {
     OCR1A = dutyCycleValues[i];
-    delay(20);
+    delay(15);
   }
 }
 
@@ -105,6 +103,6 @@ void fadeDown()
   for (int i = 511; i >= 0; i--)
   {
     OCR1A = dutyCycleValues[i];
-    delay(20);
+    delay(15);
   }
 }
