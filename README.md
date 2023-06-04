@@ -6,7 +6,7 @@ Visually correct dimming and flicker reduction using PWM and a timer
 
 You can click the image to play the associated YouTube video
 
-[![Alt text](Assets/5b%20result.jpg)](https://www.youtube.com/)
+[![Alt text](Assets/5c%20result.jpg)](https://www.youtube.com/)
 
 ### Schematic
 
