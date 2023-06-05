@@ -59,7 +59,7 @@ void setup()
 
   // ICR1 holds the TOP value in mode 14 Fast PWM. 0 - 4095 = 4096 values,
   // which means 12-bit PWM resolution at 3906Hz (16GHz / 4096). A frequency
-  // over 2kHz also means that dimming is flicker-free. TOP is the value
+  // over 1kHz means that flicker is much less perceptible. TOP is the value
   // the timer counts up to before it starts again at 0
   ICR1 = 4095; // Not 4096, because ICR1 starts at 0!
 
