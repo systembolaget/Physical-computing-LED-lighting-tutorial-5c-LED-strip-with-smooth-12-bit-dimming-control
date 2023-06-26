@@ -1,12 +1,12 @@
 # Physical computing LED lighting tutorial - LED strip with smooth 12-bit dimming control
 
-Visually correct dimming and flicker reduction using PWM and a timer
+Better dimming and flicker reduction using a 12-bit timer and look-up table
 
 ### Setup
 
 You can click the image to play the associated YouTube video
 
-[![Alt text](Assets/5c%20result.jpg)](https://www.youtube.com/)
+[![Alt text](Assets/5c%20result.jpg)](https://www.youtube.com/watch?v=sBcHLbUIBl4)
 
 ### Schematic
 
